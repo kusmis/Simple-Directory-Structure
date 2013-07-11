@@ -1,0 +1,18 @@
+#head-file-box {
+    background: lightblue;
+    padding: 10px 10px 10px 10px;
+    text-align: center
+}
+#fly-box {
+    /*background: #e5e5e5;*/
+    border: #e5e5e5 thin solid;
+    width: 50%;
+    display: none;
+    left: 0;
+    top: 0;
+    margin-left: 0;
+    margin-top: 0
+}
+#input-box {
+    padding: 30;
+}
