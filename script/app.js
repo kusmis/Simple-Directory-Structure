@@ -10,8 +10,8 @@ var InsertId;
                 var template = _.template($("#file-input-box").html(), {});
                 $("#fly-box").html(template);
                 $("#fly-box").css('position','absolute');
-                $("#fly-box").css('margin-left', ($(window).width() - $("#fly-box").width()) / 2);
-                $("#fly-box").css('margin-top', ($(window).height() - $("#fly-box").height()) / 2);
+                $("#fly-box").css('margin-left', ($(document).width() - $("#fly-box").width()) / 2);
+                $("#fly-box").css('margin-top', ($(document).height() - $("#fly-box").height()) / 2);
             },
             events: {
                 "click #add_new_file": "openFlyBox",
